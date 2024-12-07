@@ -1,0 +1,12 @@
+{
+	"extends": "./tsconfig.base.json",
+	"compilerOptions": {
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"rootDir": "ts",
+		"outDir": "js"
+	},
+	"include": ["ts/index.ts"],
+	"exclude": ["ts/**/*.test.ts"]
+}

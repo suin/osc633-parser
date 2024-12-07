@@ -1,0 +1,55 @@
+{
+	"name": "@suin/osc633-parser",
+	"version": "0.0.0-alpha1",
+	"description": "A Node.js library that parses Operating System Command (OSC) 633 sequences from any AsyncIterable string source. These sequences were originally designed by VS Code for its terminal shell integration feature.",
+	"keywords": [
+		"vscode",
+		"terminal",
+		"shell-integration",
+		"osc",
+		"parser",
+		"async-iterator"
+	],
+	"homepage": "https://github.com/suin/osc633-parser#readme",
+	"bugs": {
+		"url": "https://github.com/suin/osc633-parser/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/suin/osc633-parser.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "suin",
+		"url": "https://github.com/suin"
+	},
+	"sideEffects": false,
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./js/index.d.ts",
+			"import": "./js/index.js"
+		}
+	},
+	"main": "js/index.js",
+	"types": "js/index.d.ts",
+	"files": ["js", "ts/index.ts", "README.md", "LICENSE"],
+	"scripts": {
+		"build": "tsc -b",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@tsconfig/node22": "^22.0.0",
+		"@tsconfig/strictest": "^2.0.5",
+		"@types/node": "^22.10.1",
+		"typescript": "^5.7.2",
+		"vitest": "^2.1.8"
+	},
+	"engines": {
+		"node": ">=22.0.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
