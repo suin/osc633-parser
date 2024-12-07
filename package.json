@@ -1,6 +1,6 @@
 {
 	"name": "@suin/osc633-parser",
-	"version": "0.0.0-alpha1",
+	"version": "0.0.0-alpha2",
 	"description": "A Node.js library that parses Operating System Command (OSC) 633 sequences from any AsyncIterable string source. These sequences were originally designed by VS Code for its terminal shell integration feature.",
 	"keywords": [
 		"vscode",
